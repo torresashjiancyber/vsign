@@ -217,3 +217,6 @@ require (
 	gopkg.in/yaml.v3 v3.0.1 // indirect
 	sigs.k8s.io/release-utils v0.12.4
 )
+
+// Force single copy of sassoftware/relic (SC-006)
+replace github.com/sassoftware/relic => github.com/sassoftware/relic/v7 v7.6.2
