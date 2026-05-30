@@ -202,15 +202,15 @@ require (
 	github.com/fsnotify/fsnotify v1.9.0 // indirect
 	github.com/google/go-containerregistry v0.21.6
 	github.com/pelletier/go-toml/v2 v2.2.4 // indirect
+	github.com/rabbitmq/amqp091-go v1.10.0
 	github.com/rs/zerolog v1.35.1
 	github.com/sassoftware/relic/v7 v7.6.2
 	github.com/spf13/afero v1.15.0 // indirect
 	github.com/spf13/cast v1.10.0 // indirect
 	github.com/spf13/pflag v1.0.10
-	github.com/streadway/amqp v1.1.0
 	github.com/stretchr/testify v1.11.1
 	github.com/subosito/gotenv v1.6.0 // indirect
-	github.com/xi2/xz v0.0.0-20171230120015-48954b6210f8
+	github.com/ulikunitz/xz v0.5.14
 	golang.org/x/sys v0.45.0 // indirect
 	golang.org/x/text v0.37.0
 	gopkg.in/ini.v1 v1.67.2
