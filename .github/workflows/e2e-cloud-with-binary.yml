@@ -28,19 +28,19 @@ jobs:
       IMAGE: docker.io/zosocanuck/cert-manager-dashboard:0.1
 
     steps:
-      - uses: actions/checkout@v3.1.0
-      - uses: actions/setup-go@v3.3.0
+      - uses: actions/checkout@93ea575cb5d8a053eaa0ac8fa3b40d7e05a33cc8  # v3.1.0
+      - uses: actions/setup-go@268d8c0ca0432bb2cf416faae41297df9d262d7f  # v3.3.0
         with:
           go-version: '1.25.5'
           check-latest: true
       - name: Create sample payload file to sign
-        uses: DamianReeves/write-file-action@v1.0
+        uses: DamianReeves/write-file-action@e19fd875ed54f16fc583a3486e62547ce4a5dde8  # v1.0
         with:
           path: ${{ github.workspace }}/payload.txt
           contents: |
             this is a test
       - name: Create SA credentials file
-        uses: DamianReeves/write-file-action@v1.0
+        uses: DamianReeves/write-file-action@e19fd875ed54f16fc583a3486e62547ce4a5dde8  # v1.0
         with:
           path: ${{ github.workspace }}/sa.key
           contents: |
